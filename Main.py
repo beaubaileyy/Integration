@@ -3,10 +3,20 @@
 print("Hello and welcome to my program!")
 print("Please Complete the following addition problem!" )
 print("Enter two numbers that add up to 10")
-firstNumber = input("Enter a number: ")
-secondNumber = input("Enter another number: ")
-num1 = int(firstNumber)
-num2 = int(secondNumber)
-sum = num1 + num2
+firstAddNumber = input("Enter a number: ")
+secondAddNumber = input("Enter another number: ")
+AddNum1 = int(firstAddNumber)
+AddNum2 = int(secondAddNumber)
+sum = AddNum1 + AddNum2
 print("sum = ", sum)
+if(sum == 10) : print("Correct! thank you!")
+else: print("Please try again!")
 
+print("Now lets try a multiplication problem.\nEnter two numbers that multiply to 10")
+firstMultNumber = input("Enter a number: ")
+secondMultNumber = input("Enter another number: ")
+MultNum1 = int(firstMultNumber)
+MultNum2 = int(secondMultNumber)
+product = MultNum1 * MultNum2
+if(product == 10) : print("Correct thank you!")
+else: print("Please try again!")
