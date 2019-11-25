@@ -1,14 +1,16 @@
 # Beau Bailey
 # This program will be a useful resource that includes all of the programming
 # Exercises and code that I have worked on in module resources.
-
+"""This is the main file within the document that prompts the user to learn
+about different types of python problems. __author__ = Beau Bailey."""
 
 # This created function defines the function 'getSmaller' which finds the
 # smaller of 2 user inputted numbers
 
 
 def getSmaller(get_smaller_num1, get_smaller_num2):
-    """Finds the smaller of two numbers entered by user."""
+    """Finds the smaller of two numbers entered by user. Returns smaller
+    number."""
     if get_smaller_num1 < get_smaller_num2:
         smaller_num = get_smaller_num1
     else:
@@ -18,7 +20,7 @@ def getSmaller(get_smaller_num1, get_smaller_num2):
 
 def smaller():
     """Prompts the user for 2 numbers in order to find the smaller of the
-    two."""
+    two. Prints smaller number."""
     print("Enter a number: ")
     get_smaller_user_input1 = inputNumber()
     print("Enter another number: ")
@@ -29,7 +31,7 @@ def smaller():
 
 
 def inputNumber():
-    """Makes sure the input by the user is a number."""
+    """Makes sure the input by the user is a number. Returns user input"""
     while True:
         try:
             user_input = int(input())
